@@ -1,0 +1,51 @@
+html,
+body {
+  font-size: 16px;
+}
+
+.navbar {
+  background-color: #808080;
+  border: 2px solid #555555;
+  border-radius: 0;
+}
+
+.navbar-default h1.navbar-brand {
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2em;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid #fff;
+  background-color: #808080;
+}
+
+.navbar-header button.navbar-toggle:hover {
+  border: 1px solid #eee;
+  background-color: #333;
+}
+
+section.main-menu-section {
+  border: 2px solid #555555;
+  color: #eee;
+  background-color: #909090;
+  min-height: 1000px;
+}
+
+section.main-menu-section h3 {
+  font-size: 1.75em;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  #collapsable-nav {
+    font-size: 1.2em;
+    color: #fff;
+  }
+
+  #collapsable-nav li:hover {
+    background-color: #ddd;
+    color: #333;
+  }
+}
